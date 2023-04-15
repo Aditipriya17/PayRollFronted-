@@ -21,6 +21,20 @@ function App() {
       email: email,
       password: password
     })
+
+    fetch('http://localhost:8080/users', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        name: fullName,
+        gender: gender,
+        email: email,
+        password: password
+      }),
+    })
+      .then((response) => response.json())
+      .then((data) => console.log(data))
+      .catch((error) => console.error(error));
   }
 
   return (
