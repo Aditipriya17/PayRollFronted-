@@ -1,0 +1,15 @@
+.form {
+    display: grid;
+}
+
+.image {
+    width: 500px;
+}
+
+.flexDiv {
+    width: fit-content;
+    display: flex;
+    margin: 50px auto;
+    background-color: rgb(47, 47, 47);
+    padding: 25px;
+}

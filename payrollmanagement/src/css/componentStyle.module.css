@@ -1,0 +1,27 @@
+.basicInputTextField {
+    width: 200px;
+    padding: 20px;
+    margin: 10px auto;
+    background-color: lightgray;
+    border: none;
+    border-radius: 30px;
+}
+
+.genderInputRadioBtn {
+    padding: 25px;
+    margin: 10px auto;
+    color: white;
+}
+
+.button {
+    width: 200px;
+    padding: 20px;
+    margin: 10px auto;
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+    text-align: center;
+    background-color: rgb(0, 123, 223);
+    border: none;
+    border-radius: 30px;
+}
